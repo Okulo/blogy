@@ -1,0 +1,6 @@
+/vendor/
+/node_modules/
+/templates_c/*
+!/templates_c/.gitkeep
+.idea/
+.DS_Store

@@ -1,0 +1,12 @@
+{
+  "name": "blogy-styles",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "sass scss/style.scss public/assets/css/style.css --no-source-map --style=expanded",
+    "watch:css": "sass --watch scss/style.scss public/assets/css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
